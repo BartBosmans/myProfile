@@ -1,0 +1,142 @@
+/*Kleurenpalet */
+
+/*
+#D99066 oranje
+#401201 donker bruin
+#594F4F donker grijs-bruin
+#A69897 donker grijs
+#D9D1D0 licht grijs
+
+*/
+
+/*  Fonts  Titels */
+
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Fonts Text */
+
+.source-sans-3 {
+  font-family: "Source Sans 3", sans-serif;
+  
+}
+
+/* CSS */
+
+body, html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/waterfall.jpg");
+
+/* Set a specific height */
+height: 90%;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+text-align: center;
+position: absolute;
+top: 30%;
+left: 30%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+.title-hero {
+  font-family: "Libre Baskerville", serif;
+  font-size: 8rem;
+  color: #D9D1D0;
+  font-weight: 800;
+}
+
+.subtitle-hero{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 4rem;
+  color:#887373 ;
+  font-weight: 600;
+}
+
+.achtergrondkleur{
+  background-color: #D9D1D0;
+}
+
+.hvoorstelling{
+  font-family: "Libre Baskerville", serif;
+  font-size: 3rem;
+  color: #401201 ;
+  font-weight: 800;
+}
+
+.subvoorstelling{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.5rem;
+  color:#464242 ;
+}
+
+.vaardighedenAchtergrond{
+  background-color: #594F4F;
+}
+
+.hvoorstelling{
+  text-align: center;
+}
+
+.kleurKnop {
+  background-color: #D99066 !important
+  ;
+  font-family: "Source Sans 3", sans-serif !important;
+}
+
+.vaardighedenTextTitel{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 2rem;
+  color:#464242 ;
+}
+
+.nav-item, .nav-link, .footerText {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 2rem;
+  color:#401201 !important; 
+}
+
+.randstijl {
+  background-color:#D99066 ;
+}
+
+.textvaardighedenTitel{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 2rem;
+  color:#D9D1D0; 
+
+}
+
+.textvaardigheden{
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.5rem;
+  color:#D9D1D0 !important; 
+}
